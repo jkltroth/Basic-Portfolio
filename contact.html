@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <div>
+    <div class="header">
         <header>
-            <h1>James Roth</h1>
+            <h1 class="myname">James Roth</h1>
         </header>
         <nav>
             <ul>
@@ -21,17 +23,17 @@
             </ul>
         </nav>
     </div>
-    <div>
+    <div class="main">
         <section>
-            <h1>Contact</h1>
+            <h2>Contact</h2>
             <hr>
             <form action="TBD" method="post">
                 <p><label for="name">Name</label></p>
-                <input type="text" name="name" placeholder="John Smith" maxlength="70" required><br>
+                <input type="text" id="name" name="name" placeholder="John Smith" maxlength="70" required><br>
                 <p><label for="email">Email</label></p>
-                <input type="email" name="email" placeholder="example@gmail.com" maxlength="255" required><br>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" maxlength="255" required><br>
                 <p><label for="message">Message</label></p>
-                <textarea name="message" required></textarea><br>
+                <textarea id="message" name="message" required></textarea><br>
                 <input type="submit" name="submit" value="Submit">
             </form>
         </section>
@@ -46,7 +48,7 @@
         </aside>
     </div>
     <div>
-        <footer>
+        <footer class="footer">
             &copy; Copyright 2017 James Roth
         </footer>
     </div>
