@@ -1,22 +1,50 @@
-    /* need to figure this out  */
 body {
-    background-image: url('../images/background.png'); 
+    background-image: url('../images/background.png');
+    height: 100%;
+}
+
+.top {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-bottom: solid #cccccc;
 }
 
 .header {
-    background-color: #ffffff;
-    border-color: #cccccc;
+    width: 960px;
+    margin: 0 auto;
 }
 
 .myname {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    width: 270px;
+    padding: 20px;
 }
 
 nav {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 270px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 li {
@@ -24,29 +52,83 @@ li {
 }
 
 .main {
-    background-color: #ffffff;
-    border-color: #dddddd;
     width: 960px;
     margin: 0 auto;
+}
+
+.connectpics {
+    display: inline;
+    margin: 5px;
+}
+
+.portpics {
+    display: inline;
+    margin: 20px;
+}
+
+#name, #email, #message {
+    display: inherit;
+    width: 100%;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: inherit;
+    padding: 10px;
+    border: none;
+}
+
+#myface {
+    width: 180px;
+    float: left;
+    margin: 10px;
 }
 
 p {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 33px;
 }
 
 h2 {
     color: #4aaaa5;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: solid #dddddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 section {
-    width: 650px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 610px;
+    float: left;
 }
 
-aside {}
+aside {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border: solid 1px #dddddd;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    width: 230px;
+    float: left;
+}
 
 .footer {
     background-color: #666666;
-    color: #777777;
+    color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    clear: both;
+    text-align: center;
+    padding: 30px;
+    border-top: 8px solid #4aaaa5;
 }

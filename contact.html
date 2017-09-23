@@ -11,47 +11,54 @@
 </head>
 
 <body>
-    <div class="header">
-        <header>
-            <h1 class="myname">James Roth</h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="main">
-        <section>
-            <h2>Contact</h2>
-            <hr>
-            <form action="TBD" method="post">
-                <p><label for="name">Name</label></p>
-                <input type="text" id="name" name="name" placeholder="John Smith" maxlength="70" required><br>
-                <p><label for="email">Email</label></p>
-                <input type="email" id="email" name="email" placeholder="example@gmail.com" maxlength="255" required><br>
-                <p><label for="message">Message</label></p>
-                <textarea id="message" name="message" required></textarea><br>
-                <input type="submit" name="submit" value="Submit">
-            </form>
-        </section>
-        <aside>
-            <h2>Connect with Me</h2>
-            <hr>
-            <ul>
-                <li><a href="https://github.com/jkltroth"><img src="assets/images/github.png" alt="GitHub icon"></a></li>
-                <li><a href="https://stackoverflow.com/users/8334998/james-roth?tab=profile"><img src="assets/images/stackoverflow.png" alt="Stack Overflow icon"></a></li>
-                <li><a href="https://www.linkedin.com/in/james-roth-37211378/"><img src="assets/images/linkedin.png" alt="LinkedIn icon"></a></li>
-            </ul>
-        </aside>
-    </div>
-    <div>
-        <footer class="footer">
-            &copy; Copyright 2017 James Roth
-        </footer>
-    </div>
+    <div class="content">
+        <div class="top">
+            <div class="header">
+                <header>
+                    <h1 class="myname">James Roth</h1>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main">
+            <section>
+                <h2>Contact</h2>
+                <form action="TBD" method="post">
+                    <p><label for="name">Name</label></p>
+                    <input type="text" id="name" name="name" placeholder="John Smith" maxlength="70" required><br>
+                    <p><label for="email">Email</label></p>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" maxlength="255" required><br>
+                    <p><label for="message">Message</label></p>
+                    <textarea rows="10" id="message" name="message" required></textarea><br>
+                    <input class="submit" type="submit" name="submit" value="Submit">
+                </form>
+            </section>
+            <aside>
+                <h2>Connect with Me</h2>
+                <ul>
+                    <li>
+                        <a href="https://github.com/jkltroth"><img class="connectpics" src="assets/images/github.png" alt="GitHub icon"></a>
+                    </li>
+                    <li>
+                        <a href="https://stackoverflow.com/users/8334998/james-roth?tab=profile"><img class="connectpics" src="assets/images/stackoverflow.png" alt="Stack Overflow icon"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/james-roth-37211378/"><img class="connectpics" src="assets/images/linkedin.png" alt="LinkedIn icon"></a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        <div>
+            <footer class="footer">
+                &copy; Copyright 2017 James Roth
+            </footer>
+        </div>
 </body>
 
 </html>
